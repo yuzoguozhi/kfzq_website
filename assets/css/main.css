@@ -1,13 +1,6 @@
 @import url(./fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-
-@font-face {
-	font-family: 'MiSans Regular';   /*字体名称*/
-	src: url('../webfonts/MiSans-Regular.woff');       /*字体源文件*/
-  }
- 
-
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
