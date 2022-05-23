@@ -2803,7 +2803,7 @@ input, select, textarea {
 			}
 
 			.tiles article:after {
-				background-color: rgba(36, 41, 67, 0.15);
+				background-color: rgb(29 29 29 / 10%);
 				content: '';
 				display: block;
 				height: 100%;
@@ -2835,19 +2835,19 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #6facdf;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: rgba(61, 61, 61, 0.8);
+				background-color: rgb(112 200 162 / 84%);
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #8d82c4;
+				background-color: #c3646bd6;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #87c5a4;
+				background-color: #424242;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -3155,6 +3155,7 @@ input, select, textarea {
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.375em;
+				border-radius: 4px;
 			}
 
 			#header .logo:hover strong {
@@ -3481,9 +3482,9 @@ input, select, textarea {
 				#banner > .inner .content p {
 					font-size: 0.76em;
 					font-weight: 600;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.15em;
 					text-transform: uppercase;
-					text-shadow:  0px 1.3px 7px rgba(0, 0, 0, 0.4);
+					text-shadow:  0px 1px 4px rgba(0, 0, 0, 0.1);
 				}
 
 		#banner.major {
