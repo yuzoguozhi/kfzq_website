@@ -1,5 +1,5 @@
 @font-face {
     font-family: "MiSans Regular";
     /* src: url('../font/MiSans-Regular.woff') format('woff'); */
-    src: url('../webfonts/MiSans-Regular.woff') format('woff');
+    src: url('https://kfzq-1258074638.cos-website.ap-shanghai.myqcloud.com/assets/webfonts/MiSans-Regular.woff') format('woff');
 }
