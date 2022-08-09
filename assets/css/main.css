@@ -3868,7 +3868,6 @@ input, select, textarea {
 						letter-spacing: 0.25em;
 						line-height: 4em;
 						text-decoration: none;
-						text-transform: uppercase;
 					}
 
 					#menu ul.links > li > .button {
