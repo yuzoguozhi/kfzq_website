@@ -3480,10 +3480,10 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.76em;
+					font-size: 0.85em;
 					font-weight: 600;
 					letter-spacing: 0.15em;
-					text-transform: uppercase;
+					/* text-transform: uppercase; */
 					text-shadow:  0px 1px 4px rgba(0, 0, 0, 0.1);
 				}
 
@@ -3993,7 +3993,7 @@ input, select, textarea {
 		-webkit-transition-delay: 0.75s;
 		-ms-transition-delay: 0.75s;
 		transition-delay: 0.75s;
-		background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+		background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 		background-size: auto,
 256px 256px;
 		background-position: center,
