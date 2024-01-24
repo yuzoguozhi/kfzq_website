@@ -223,12 +223,12 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 1.5em;
  
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 1.35em;
 		}
 
 		h3 {
