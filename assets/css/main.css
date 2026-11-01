@@ -4665,7 +4665,7 @@ body.is-menu-visible #header .logo span {
 
 .showcase {
 	display: flex;
-	gap: 1.5rem;
+	gap: 1.35rem;
 	padding: 2.5rem max(1.5rem, 7.8vw) 2rem;
 	overflow-x: auto;
 	overflow-y: hidden;
@@ -4683,12 +4683,12 @@ body.is-menu-visible #header .logo span {
 	.showcase-card {
 		position: relative;
 		flex: 0 0 auto;
-		width: min(1400px, 76vw);
+		width: var(--showcase-w);
 		aspect-ratio: 1.92 / 1;
 		overflow: hidden;
 		isolation: isolate;
 		background-color: #f5f5f7;
-		border-radius: 2rem;
+		border-radius: 1.8rem;
 		scroll-snap-align: center;
 	}
 
@@ -4715,16 +4715,16 @@ body.is-menu-visible #header .logo span {
 
 		.showcase-copy {
 			position: absolute;
-			top: 3.25rem;
-			left: 3.5rem;
+			top: 2.9rem;
+			left: 3.15rem;
 			z-index: 2;
 			max-width: 60%;
 		}
 
 			.showcase-eyebrow {
-				margin: 0 0 0.9rem 0;
+				margin: 0 0 0.81rem 0;
 				color: rgba(29, 29, 31, 0.55);
-				font-size: 0.72rem;
+				font-size: 0.65rem;
 				font-weight: 600;
 				letter-spacing: 0.14em;
 				line-height: 1.5;
@@ -4734,23 +4734,23 @@ body.is-menu-visible #header .logo span {
 			.showcase-copy h2 {
 				margin: 0;
 				color: #1d1d1f;
-				font-size: clamp(2.4rem, 4.6vw, 4.2rem);
+				font-size: clamp(2.16rem, 4.14vw, 3.78rem);
 				font-weight: 600;
 				letter-spacing: -0.035em;
 				line-height: 1.02;
 			}
 
 			.showcase-lede {
-				margin: 1rem 0 0 0;
+				margin: 0.9rem 0 0 0;
 				color: rgba(29, 29, 31, 0.72);
-				font-size: 1.15rem;
+				font-size: 1.04rem;
 				line-height: 1.5;
 			}
 
 		.showcase-actions {
 			position: absolute;
-			top: 3.4rem;
-			right: 3.5rem;
+			top: 3.06rem;
+			right: 3.15rem;
 			z-index: 3;
 			margin: 0 !important;
 			padding: 0 !important;
@@ -4763,11 +4763,11 @@ body.is-menu-visible #header .logo span {
 			}
 
 			.showcase-actions .button {
-				font-size: 0.95rem;
+				font-size: 0.86rem;
 				font-weight: 600;
 				letter-spacing: 0.01em;
 				line-height: 1;
-				padding: 0.95em 1.6em;
+				padding: 0.855em 1.44em;
 				white-space: nowrap;
 			}
 
@@ -4775,13 +4775,7 @@ body.is-menu-visible #header .logo span {
 				width: auto;
 			}
 
-	@media screen and (max-width: 980px) {
 
-		.showcase-card {
-			width: min(1400px, 84vw);
-		}
-
-	}
 
 	@media screen and (max-width: 736px) {
 
@@ -4792,30 +4786,30 @@ body.is-menu-visible #header .logo span {
 		}
 
 		.showcase-card {
-			width: 86vw;
+			width: 77vw;
 			aspect-ratio: 1.1 / 1;
-			border-radius: 1.5rem;
+			border-radius: 1.35rem;
 		}
 
 		.showcase-copy {
-			top: 1.6rem;
-			left: 1.5rem;
-			max-width: calc(100% - 3rem);
+			top: 1.45rem;
+			left: 1.35rem;
+			max-width: calc(100% - 2.7rem);
 		}
 
 		.showcase-copy h2 {
-			font-size: clamp(1.9rem, 8vw, 2.6rem);
+			font-size: clamp(1.71rem, 7.2vw, 2.34rem);
 		}
 
 		.showcase-lede {
-			font-size: 1rem;
+			font-size: 0.9rem;
 		}
 
 		.showcase-actions {
 			top: auto;
 			right: auto;
-			bottom: 1.5rem;
-			left: 1.5rem;
+			bottom: 1.35rem;
+			left: 1.35rem;
 		}
 
 	}
@@ -4823,12 +4817,14 @@ body.is-menu-visible #header .logo span {
 /* ---------- Showcase : shell + floating switcher ---------- */
 .showcase-heading {
 	margin: 0 0 1.5rem;
-	padding: 4rem max(1.5rem, 7.8vw) 0;
+	padding: 4rem var(--showcase-pad) 0;
 	color: #1d1d1f;
 }
 
 
 .showcase-shell {
+	--showcase-w: min(1260px, 68.4vw);
+	--showcase-pad: max(1.5rem, 7.8vw);
 	position: relative;
 	padding-bottom: 3rem;
 }
@@ -4972,6 +4968,14 @@ body.is-menu-visible #header .logo span {
 
 	.showcase-shell {
 		padding-bottom: 1.5rem;
+	}
+
+}
+
+@media screen and (max-width: 980px) {
+
+	.showcase-shell {
+		--showcase-w: min(1260px, 75.6vw);
 	}
 
 }
