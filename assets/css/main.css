@@ -4763,11 +4763,15 @@ body.is-menu-visible #header .logo span {
 			}
 
 			.showcase-actions .button {
-				font-size: 0.86rem;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 0.903rem;
 				font-weight: 600;
 				letter-spacing: 0.01em;
 				line-height: 1;
-				padding: 0.855em 1.44em;
+				height: 3.25em;
+				padding: 0 1.44em;
 				white-space: nowrap;
 			}
 
